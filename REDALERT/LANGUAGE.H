@@ -83,7 +83,7 @@
 
 
 #ifdef FRENCH
-#define TEXT_ERROR_TIMER                "Error - L'horloge systÞme n'a pas pu s'initialiser en raison de l'instabilité du sytÞme. Vous devez redémarrer Windows."
+#define TEXT_ERROR_TIMER                "Error - L'horloge système n'a pas pu s'initialiser en raison de l'instabilité du système. Vous devez redémarrer Windows."
 #define TEXT_SHORT_TITLE                "Alerte Rouge"
 #define TEXT_MEMORY_ERROR               "Erreur - Plus de mémoire."
 #define TEXT_ABORT                              "Interrompre"
@@ -106,7 +106,7 @@
 #define TEXT_STOP                               "Stop"
 #define TEXT_CONTINUE                   "Continuer"
 #define TEXT_OPTIONS                    "Alerte Rouge (c) 1996, Westwood Studios\r\n" \
-										"ParamÞtres:\r\n" \
+										"Paramètres:\r\n" \
 										"  -DESTNET  = Spécifier le numéro de réseau du système de destination\r\n" \
 										"              (Syntaxe: DESTNETxx.xx.xx.xx)\r\n" \
 										"  -SOCKET   = ID Socket réseau (0  16383)\r\n" \
