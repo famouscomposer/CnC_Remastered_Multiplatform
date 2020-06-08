@@ -1,0 +1,10 @@
+# VScode
+.vscode/
+
+# Gradle
+.gradle/
+local.properties
+
+# Jetbrains
+.idea/
+*.iml
