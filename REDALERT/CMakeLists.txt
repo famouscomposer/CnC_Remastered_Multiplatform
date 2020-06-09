@@ -28,9 +28,11 @@ add_executable( cnc
     LZOPIPE.CPP
     B64PIPE.CPP
     XPIPE.CPP
+    # Following file compiles - but needs to be tested,
+    # as it was a hack,
+    LZWOTRAW.CPP
     
     # Following files - do not compile
-    # LZWOTRAW.CPP
     # XSTRAW.CPP
 
     # following files compile, but lack some other symbols bellow
