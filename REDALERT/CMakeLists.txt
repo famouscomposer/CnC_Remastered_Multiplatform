@@ -27,9 +27,9 @@ add_executable( cnc
     STRAW.CPP
     LZOPIPE.CPP
     B64PIPE.CPP
+    XPIPE.CPP
     
     # Following files - do not compile
-    # XPIPE.CPP 
     # LZWOTRAW.CPP
     # XSTRAW.CPP
 
