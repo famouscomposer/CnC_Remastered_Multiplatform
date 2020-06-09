@@ -18,41 +18,42 @@ include_directories(
 add_executable( cnc 
     CRC.CPP
     BASE64.CPP
+    SHA.CPP
+    LZO1X_D.CPP
+    LZO1X_C.CPP
+
+    PIPE.CPP
+    BUFF.CPP
+    STRAW.CPP
+    LZOPIPE.CPP
+    B64PIPE.CPP
+    
+    # Following files - do not compile
+    # XPIPE.CPP 
+    # LZWOTRAW.CPP
+    # XSTRAW.CPP
+
+    # following files compile, but lack some other symbols bellow
+    # LZW.CPP
+    # LZWSTRAW.CPP
+    # LZWPIPE.CPP
+    # LZOSTRAW.CPP    
 
     # WIP - still not compiling
-    READLINE.CPP
-    INI.CPP 
-    PK.CPP
-    INT.CPP
-    STRAW.CPP
-    FIXED.CPP
-    B64PIPE.CPP
-    XPIPE.CPP
-    B64STRAW.CPP
-    CCFILE.CPP
-    CRCPIPE.CPP
-    CRCSTRAW.CPP
-    HEAP.CPP
-    SHA.CPP
-    SHAPIPE.CPP
-    SHASTRAW.CPP
-    LZO1X_C.CPP
-    LZO1X_D.CPP
-    LZOPIPE.CPP
-    LZOSTRAW.CPP
-    LZW.CPP
-    LZWOTRAW.CPP
-    LZWPIPE.CPP
-    LZWSTRAW.CPP
-    
-    # next bunch to compile
-    # lzw.cpp
-    # lzo1x_c.cpp
-    # lzo1x_d.cpp
-    # lzopipe.cpp
-    # lzostraw.cpp
-    # lzwotraw.cpp
+    # INI.CPP 
+    # PK.CPP
+    # INT.CPP
+    # FIXED.CPP
+    # B64STRAW.CPP
+    # CCFILE.CPP
+    # CRCPIPE.CPP
+    # CRCSTRAW.CPP
+    # HEAP.CPP
+    # SHAPIPE.CPP
+    # SHASTRAW.CPP
+    # READLINE.CPP
 )
+
 # List of all available files, move the to compilation one at a time
     # 2KEYFRAM.CPP
     # AADATA.CPP
@@ -73,7 +74,6 @@ add_executable( cnc
     # BLOWPIPE.CPP
     # BLWSTRAW.CPP
     # BMP8.CPP
-    # BUFF.CPP
     # BUILDING.CPP
     # BULLET.CPP
     # CARGO.CPP
@@ -207,7 +207,6 @@ add_executable( cnc
     # OVERLAY.CPP
     # PACKET.CPP
     # PALETTEC.CPP
-    # PIPE.CPP
     # PKPIPE.CPP
     # PKSTRAW.CPP
     # POWER.CPP
@@ -300,4 +299,3 @@ add_executable( cnc
     # _WSPROTO.CPP
     # WSPROTO.CPP
     # WSPUDP.CPP
-    # XSTRAW.CPP

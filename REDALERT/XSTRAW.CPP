@@ -35,7 +35,7 @@
  *   FileStraw::~FileStraw -- The destructor for the file straw.                               *
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 #include "FUNCTION.H"
-#include	"xstraw.h"
+#include	"XSTRAW.H"
 #include	<stddef.h>
 #include	<string.h>
 

@@ -76,7 +76,10 @@ class SHAEngine
 		};
 
 		void Init(void) {
+// TODO - I have no idea what this code is, and how does it work. IMHO - it's flawed.
+#if 0
 			new ((void*)this) SHAEngine;
+#endif
 		};
 
 		// Fetch result as if source data were to stop now.
