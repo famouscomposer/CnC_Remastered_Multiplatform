@@ -33,7 +33,7 @@ add_executable( cnc
     LZWOTRAW.CPP
     
     # Following files - do not compile
-    # XSTRAW.CPP
+    XSTRAW.CPP
 
     # following files compile, but lack some other symbols bellow
     # LZW.CPP
