@@ -11,8 +11,8 @@ pool:
 
 variables:
   solution: 'CnCRemastered.sln'
-  buildPlatform: 'x64'
-  buildConfiguration: 'Debug'
+  buildPlatform: 'x86'
+  buildConfiguration: 'Release'
 
 steps:
 - task: NuGetToolInstaller@1
