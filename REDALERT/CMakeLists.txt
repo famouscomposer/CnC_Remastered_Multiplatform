@@ -17,28 +17,41 @@ include_directories(
 # target
 add_executable( cnc 
     CRC.CPP
-
     BASE64.CPP
 
-    # READLINE.CPP
-    # INI.CPP 
-    # PK.CPP
-    # INT.CPP
-    # STRAW.CPP
-    # FIXED.CPP
-    # B64PIPE.CPP
-    # XPIPE.CPP
-    # B64STRAW.CPP
-
-# lzw.cpp
-# lzo1x_c.cpp
-# lzo1x_d.cpp
-# lzopipe.cpp
-# lzostraw.cpp
-# lzwotraw.cpp
-
-
-
+    # WIP - still not compiling
+    READLINE.CPP
+    INI.CPP 
+    PK.CPP
+    INT.CPP
+    STRAW.CPP
+    FIXED.CPP
+    B64PIPE.CPP
+    XPIPE.CPP
+    B64STRAW.CPP
+    CCFILE.CPP
+    CRCPIPE.CPP
+    CRCSTRAW.CPP
+    HEAP.CPP
+    SHA.CPP
+    SHAPIPE.CPP
+    SHASTRAW.CPP
+    LZO1X_C.CPP
+    LZO1X_D.CPP
+    LZOPIPE.CPP
+    LZOSTRAW.CPP
+    LZW.CPP
+    LZWOTRAW.CPP
+    LZWPIPE.CPP
+    LZWSTRAW.CPP
+    
+    # next bunch to compile
+    # lzw.cpp
+    # lzo1x_c.cpp
+    # lzo1x_d.cpp
+    # lzopipe.cpp
+    # lzostraw.cpp
+    # lzwotraw.cpp
 )
 # List of all available files, move the to compilation one at a time
     # 2KEYFRAM.CPP
@@ -66,7 +79,6 @@ add_executable( cnc
     # CARGO.CPP
     # CARRY.CPP
     # CCDDE.CPP
-    # CCFILE.CPP
     # CCINI.CPP
     # CCMPATH.CPP
     # CCPTR.CPP
@@ -89,8 +101,6 @@ add_executable( cnc
     # CONTROL.CPP
     # COORD.CPP
     # CRATE.CPP
-    # CRCPIPE.CPP
-    # CRCSTRAW.CPP
     # CREDITS.CPP
     # CREW.CPP
     # CSTRAW.CPP
@@ -130,7 +140,6 @@ add_executable( cnc
     # GOPTIONS.CPP
     # GSCREEN.CPP
     # HDATA.CPP
-    # HEAP.CPP
     # HELP.CPP
     # HOUSE.CPP
     # HSV.CPP
@@ -164,14 +173,6 @@ add_executable( cnc
     # LIST.CPP
     # LOADDLG.CPP
     # LOGIC.CPP
-    # LZO1X_C.CPP
-    # LZO1X_D.CPP
-    # LZOPIPE.CPP
-    # LZOSTRAW.CPP
-    # LZW.CPP
-    # LZWOTRAW.CPP
-    # LZWPIPE.CPP
-    # LZWSTRAW.CPP
     # MAP.CPP
     # MAPEDDLG.CPP
     # MAPEDIT.CPP
@@ -234,10 +235,9 @@ add_executable( cnc
     # SENDFILE.CPP
     # SEQCONN.CPP
     # SESSION.CPP
-    # SHA.CPP
+    
+
     # SHAPEBTN.CPP
-    # SHAPIPE.CPP
-    # SHASTRAW.CPP
     # SIDEBAR.CPP
     # SIDEBARGlyphx.CPP
     # SLIDER.CPP
