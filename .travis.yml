@@ -1,9 +1,20 @@
 language: cpp
-sudo: required
-dist: focal
-compiler:
-- clang
-os:
-- linux
-script:
-- cmake --version
+
+jobs:
+  include:
+  - stage: build
+    os: linux
+    dist: focal
+    script:
+      - cmake --version
+
+  - stage: build
+    os: osx
+    osx_image: xcode11.5
+    script:
+      - "true"
+
+  - stage: build
+    os: windows
+    script:
+      - powershell scripts/build_windows.ps
